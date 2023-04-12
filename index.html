@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!-- Site by Alana Jen -->
+<!-- 2020 -->
+
+<head>
+    <!--TODO: Update Meta-->
+    <!--Helps (a little) with SEO. Replace with your info -->
+    <meta name="author" content="Matthew Evenson" />
+    <meta name="copyright" content="Copyright Desert Boots Dance Company 2023. All Rights Reserved." />
+    <meta name="description" content="General basic website for cool people." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--TODO: Update page title-->
+    <!-- Page Title (Appears on tab) -->
+    <title> Desert Boots Dance Company </title>
+
+    <!-- Style Sheets (CSS) -->
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!--OUR CUSTOM STYLESHEET-->
+    <link rel="stylesheet" href="StyleSheet.css" />
+
+
+    <!--FAVICON -->
+    <!--For step-by-step instructions on how to create a favicon, visit: https://alanajen.com/How-to-Create-a-Favicon -->
+    <!--TODO: Replace with your favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+
+    <!-- Head to: https://getbootstrap.com/docs/4.5/components/navbar/ for more menu styles and more information on customizing navbars -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">
+            <!--TODO: Replace with your logo image-->
+            <img src="logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!--TODO: Update your menu names (optional)-->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navbar END -->
+    <!--HERO SECTION-->
+    <div class="bg jumbotron">
+        <!--TODO: To change the image, create your own and save as HeroImage.jpg (size of default image used is 2880px x 1200px but most landscape sizes should work -->
+        <div class="headliner">
+            <!--TODO: Update the Headline-->
+            <h5 class="title">Desert Boots Dance Company</h5>
+            <p class="subtitle">
+                <!--TODO: Update your sub-title and tagline-->
+                Providing Country Dance Lessons
+                <br /><span class="tagline">Because true greatness is truly great</span>
+            </p>
+            <!--TODO: Update button name (optional)-->
+            <a class="btn btn-primary" href="#features" role="button">Explore</a>
+        </div>
+    </div>
+
+
+
+    <!--FEATURE SECTION-->
+    <a class="anchorTag" id="features"></a>
+    <div class="container section">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--TODO: Update the feature section title-->
+                <h2 class="sectionTitles">What We Do</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <!--TODO: Update Feature 1 title and text-->
+                        <h5 class="card-title">Great Feature 1</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <!--TODO: Update Feature 2 title and text-->
+                        <h5 class="card-title">Great Feature 2</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <!--TODO: Update Feature 3 title and text-->
+                        <h5 class="card-title">Great Feature 3</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <a class="anchorTag" id="about"></a>
+    <div class="container section">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--TODO: Update About title-->
+                <h2 class="sectionTitles">Who We Are</h2>
+            </div>
+            <div class="col-sm-4">
+                <!--TODO: To replace About Image, drop your own image into the "website" folder and name it AboutImage.jpg size of default image is 1080px x 1080px -->
+                <img class="image-float img-thumbnail" src="AboutImage.jpg" />
+            </div>
+            <div class="col-sm-8">
+                <!--TODO: Update About section text-->
+                <p>
+                    This is a story about how we started, developed our values, determined our beliefs and realized we were great.
+                </p>
+                <p>
+                    Then we decided to serve great people and we've never looked back.
+                </p>
+
+                <p>
+                    And it's been great!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container"> <hr /> </div>
+
+    <!--CONTACT SECTION-->
+    <a class="anchorTag" id="contact"></a>
+    <div class="container anchorTag" style="margin-top: 50px;" id="contact">
+        <div class="row">
+            <div class="col-sm-12">
+                <!--TODO: Update Contact title-->
+                <h2 class="sectionTitles">Fill out the form below if interested</h2>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!--Google Form-->
+    <div id="googleForm">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc612bAbo9CBs9OKUEwvDl94bPsbjOT_BmtLQdyUxZmhpz5hg/viewform?embedded=true" width="640" height="851" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    <!--TODO: Update About section-->
+    <div class="col-sm-12" style="margin-top: 50px;">
+        <h4 style="text-align: center;">
+            <!--TODO: Update email-->
+            Email Us!<br />desertbootsdance@gmail.com
+        </h4>
+        <p>
+            <!--Start-->
+            <h4 style="text-align: center;">
+                <!--TODO: Update Address or remove block (to delete remove lines from "Start" line 197 to "End" line 203)-->
+                Areas Serviced
+                <br />Tempe, Scottsdale, Mesa, Gilbert, Chandler and Queen Creek
+            </h4>
+        </p><!--End-->
+        <p>
+            <!--Start-->
+            <h4 style="text-align: center;">
+                <!--TODO: Update phone or remove block (to delete remove lines from "Start" line 205 to "End" line 211)-->
+                Call Us!
+                <br />715-309-9715
+            </h4>
+        </p><!--End-->
+
+    </div>
+    </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col footerTxt">
+            <!--TODO: Change copyright-->
+            &copy; Desert Boots Dance Company, 2023
+        </div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
